@@ -1,0 +1,15 @@
+while getgenv().f do
+wait()
+local ohString1 = "spin"
+local ohString2 = "kg1"
+
+game:GetService("Players").LocalPlayer.startevent:FireServer(ohString1, ohString2)
+
+wait()
+local ohString1 = "spin"
+local ohString2 = "kg2"
+
+game:GetService("Players").LocalPlayer.startevent:FireServer(ohString1, ohString2)
+
+wait()
+end
